@@ -2,7 +2,7 @@ import json
 import urllib.parse
 import requests
 
-url = "https://10.0.15.117/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces/name/Loopback61070254"
+url = "https://10.0.15.117/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces"
 headers = { "Accept": "application/yang-data+json",
  "Content-type":"application/yang-data+json"
 }
